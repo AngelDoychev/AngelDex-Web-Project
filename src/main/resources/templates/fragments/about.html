@@ -1,0 +1,41 @@
+<div th:fragment="about">
+    <section class="about_section layout_padding">
+        <div class="container  ">
+            <div class="heading_container heading_center">
+                <h2>
+                    About <span>Us</span>
+                </h2>
+                <p>
+                    <img class="img-logo" src="/images/logo.png" alt="">
+                    <br>
+                    <br>
+                    This is a demo project made for observing the rapidly changing prices of crypto currencies.
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-md-6 ">
+                    <div class="img-box">
+                        <img src="/images/about-img.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="detail-box">
+                        <h3>
+                            We Are AngelDex
+                        </h3>
+                        <p>
+                            AngelDex is a project developed by Angel Doychev to
+                            observe the rapidly changing prices of crypto currencies.
+                            In this project you cannot trade or store crypto currencies
+                            in a wallet. <blockquote>That does not mean that it will not be possible
+                        to do so in the future.</blockquote>
+                        </p>
+                        <a th:href="@{/team}">
+                            Read More
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

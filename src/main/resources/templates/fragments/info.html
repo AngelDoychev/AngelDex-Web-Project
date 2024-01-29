@@ -1,0 +1,93 @@
+<div th:fragment="info">
+    <section class="info_section layout_padding2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-3 info_col">
+                    <div class="info_contact">
+                        <h4>
+                            Address
+                        </h4>
+                        <div class="contact_link_box">
+                            <a href="https://www.google.com/search?q=plovdiv&oq=plovdiv&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGDzSAQgxOTM0ajBqMagCALACAA&sourceid=chrome&ie=UTF-8">
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                <span>
+                  Plovdiv, Bulgaria
+                </span>
+                            </a>
+                            <a href="">
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                <span>
+                  Call +359 882-704-879
+                </span>
+                            </a>
+                            <a href="">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                                <span>
+                  angeldoychev285@abv.bg
+                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="info_social">
+                        <a href="">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 info_col">
+                    <div class="info_detail">
+                        <h4>
+                            Info
+                        </h4>
+                        <p>
+                            This is a demo project made for observing the rapidly
+                            changing prices of crypto currencies
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-2 mx-auto info_col">
+                    <div class="info_link_box">
+                        <h4>
+                            Links
+                        </h4>
+                        <div class="info_links">
+                            <a class="active" th:href="@{/home}">
+                                Home
+                            </a>
+                            <a class="" th:href="@{/articles}">
+                                Articles
+                            </a>
+                            <a class="" th:href="@{/crypto}">
+                                Crypto
+                            </a>
+                            <a class="" th:href="@{/team}">
+                                Team
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 info_col ">
+                    <h4>
+                        Subscribe
+                    </h4>
+                    <form th:action="@{/registerEmail}" th:object="${emailRegisterDto}">
+                        <input th:field="*{email}" th:value="*{email}" type="email" placeholder="Enter email"/>
+                        <small class="text-danger" th:if="${#fields.hasErrors('email')}" th:errors="*{email}">Email error message</small>
+                        <button type="submit">
+                            Subscribe
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

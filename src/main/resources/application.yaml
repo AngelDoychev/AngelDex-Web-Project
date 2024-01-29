@@ -1,0 +1,44 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 1006516123820-c8cmao1321d35u16t2n97lrquj0hkrtu.apps.googleusercontent.com
+            client-secret: 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
+
+          github:
+            client-id: 2cc79b9df69b1c04c2fe
+            client-secret: b66426dd75467ffd32babe6e6926e2afbdfe5690
+
+#          linkedIn:
+#            client-id: 78bjkikxarusaj
+#            client-secret: VKqQTgyls34iMf3Q
+
+          facebook:
+            client-id: 689970046657502
+            client-secret: 4c835d5802a503c93e2c0f3fc9684b8b
+
+
+  datasource:
+    username: root
+    url: jdbc:mysql://localhost:3306/Angel_Dex?useSSL=false&createDatabaseIfNotExist=true&sessionVariables=sql_mode='NO_ENGINE_SUBSTITUTION'&jdbcCompliantTruncation=false
+    useSSl: 'TRUE'
+    driverClassName: com.mysql.cj.jdbc.Driver
+    password: ''
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+        format_sql: 'TRUE'
+    hibernate:
+      ddl-auto: update
+logging:
+  level:
+    org:
+      hibernate:
+        type:
+          descriptor: TRACE
+        SQL: DEBUG
+      nodeValue: WARN
+    blog: WARN
