@@ -128,6 +128,36 @@ makes it easier to digest. The program is structured as follows.
 
 
 
+<!-- Oauth2 -->
+## Oauth2
+
+Oauth2 was used and implemented in the SecurityConfig file with default
+success url and the ability to log in using the /login link.
+Links used:
+- https://developers.facebook.com
+- https://console.cloud.google.com
+- https://developer.linkedin.com
+- https://github.com/settings/developers
+
+
+
+<!-- Coin Market Cap API -->
+## Coin Market Cap API
+
+The Coin Market Cap API was instantiated in the CMCAPIConfiguration file
+and was used in order to pull a JSON file with meta information for
+the top 100 cryptocurrencies and upload it into the databse using the 
+Currency Entity. Later it is displayed in the CryptoCotroller class.
+
+
+
+<!-- Thymeleaf -->
+## Thymmeleaf
+Thymeleaf was used to make the connection between the back-end and front-end 
+and create a seamless work flow between them. 
+
+
+
 <!-- ROADMAP -->
 ## Roadmap
 
