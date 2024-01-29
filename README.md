@@ -14,7 +14,7 @@
 ## Website view
 
 <br />
-<img src="![signup tab](https://github.com/AngelDoychev/AngelDex-Web-Project/assets/120913858/4cc39cc7-76df-4c2b-8995-4eac328a09fd)">
+<img src="![signup tab](https://github.com/AngelDoychev/AngelDex-Web-Project/src/main/resources/static/images/logo.png)">
 <br />
 ![login tab](https://github.com/AngelDoychev/AngelDex-Web-Project/assets/120913858/b73e98ce-dfdf-4388-b297-bf49caa58799)
 <br />
@@ -45,7 +45,6 @@ Other functionalities include creating and observing news articles about crypto 
 account system that lets people create and login into their account in order to track who uploaded which article.
 The project is build in a Spring Model View Controller architecture type.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -66,7 +65,6 @@ This section lists the major dependecies used in the project:
 * Bootstrap
 * Jquery
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -81,7 +79,6 @@ This section lists the major dependecies used in the project:
 - Role
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- Relations -->
@@ -97,7 +94,6 @@ This section lists the major dependecies used in the project:
 - Role (ManyToMany relation with UserEntity)
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ROADMAP -->
 ## Roadmap
@@ -109,7 +105,6 @@ This section lists the major dependecies used in the project:
 - Login/Logout (this section lets you traverse into and out of registered accounts)
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -139,7 +134,6 @@ articles written by this user.
 - Usres are able to update the prices of cryptocurrencies.
 - Admin can update the prices of currencies and "hard update" the top 100 if there are changes in the market.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -150,4 +144,4 @@ Angel Doychev - Email: angeldoychev285@abv.bg Phone-number: 0882704879
 
 Project Link: [https://github.com/AngelDoychev/AngelDex-Web-Project](https://github.com/AngelDoychev/AngelDex-Web-Project)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
