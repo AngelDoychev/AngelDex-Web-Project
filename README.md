@@ -4,10 +4,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
    ![logo](https://github.com/AngelDoychev/AngelDex-Web-Project/assets/120913858/7775bcef-2503-4ec1-87f0-7668dec30273)
-  </a>
-
   <h3 align="center">AngelDex-Web-Project</h3>
 </div>
 
