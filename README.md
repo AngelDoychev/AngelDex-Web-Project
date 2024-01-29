@@ -16,7 +16,7 @@
 ## Website view
 
 <br />
-![signup tab](https://github.com/AngelDoychev/AngelDex-Web-Project/tree/main/src/main/resources/static/images/signup%20tab.png))"
+![signup tab](https://github.com/AngelDoychev/AngelDex-Web-Project/tree/main/src/main/resources/static/images/signup%20tab.png?raw=true))"
 <br />
 ![login tab](https://github.com/AngelDoychev/AngelDex-Web-Project/tree/main/src/main/resources/static/images/login%20tab.png)
 <br />
