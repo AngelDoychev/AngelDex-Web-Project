@@ -71,6 +71,8 @@ This section lists the major dependecies used in the project:
 <!-- Entities -->
 ## Entities
 
+The entities were instantiated using jakarta.persistance JPQL with the @Entity annotation.
+
 - BaseEntity (used to hold the id of all other entities)
 - Article 
 - Currency
@@ -94,6 +96,37 @@ This section lists the major dependecies used in the project:
 - Role (ManyToMany relation with UserEntity)
 
 
+<!-- Dto -->
+## Dto's
+
+Data transfer objects were created so we don't expose the objects.
+Validations were applied on the Dtos varriables. in order to validate size, notnull, etc...
+
+- ArticleBindingDto
+- ChangePasswordDto
+- CurrencyDto
+- EmailRegisterDto
+- ForgotPasswordDto
+- LoginServiceModel
+- RegisterUserBindingDto
+- SearchArticlesDto
+
+
+<!-- MVC architecture -->
+## MVC Architecture 
+
+The MVC architecture type was used in order to structure the application in a way that 
+makes it easier to digest. The program is structured as follows.
+
+- config (all app configurations are stored here)
+- model (entities, Dtos and Enumerations are stored here)
+- repository (For every entity a repositories was created which uses  springframworks JpaRepository in order to generate functions from pre-done JPQL)
+- security (A CurrentUser class was created that lives in the @Sessionscope and stores the state of the user and if the user is anonymous or logged in)
+- service (All of the logic is stored in the services in order to create a Facade design pattern)
+- util (Utilizations are stored and implemented here)
+- web (All of the controllers which link the back end to the frontend are stored here)
+
+
 
 <!-- ROADMAP -->
 ## Roadmap
@@ -103,9 +136,6 @@ This section lists the major dependecies used in the project:
 - Crypto (this is where crypto currencies can be observed)
 - Team (this section contains information behind the team that build this app "aka myself")
 - Login/Logout (this section lets you traverse into and out of registered accounts)
-
-
-
 
 
 
