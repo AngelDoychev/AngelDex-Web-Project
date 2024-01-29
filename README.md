@@ -4,9 +4,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-   <img>
-   ![logo](https://github.com/AngelDoychev/AngelDex-Web-Project/tree/main/src/main/resources/static/images/logo.png)
-   </img>
+<img src="https://i.postimg.cc/90B4KcNK/logo.png" alt="logo">
   <h3 align="center">AngelDex-Web-Project</h3>
 </div>
 
@@ -16,23 +14,23 @@
 ## Website view
 
 <br />
-![signup tab](https://github.com/AngelDoychev/AngelDex-Web-Project/blob/main/src/main/resources/static/images/signup%20tab.png?raw=true))"
+<img src="https://i.postimg.cc/d1D2cZKd/signup-tab.png" alt="signup">
 <br />
-![login tab](https://github.com/AngelDoychev/AngelDex-Web-Project/tree/main/src/main/resources/static/images/login%20tab.png)
+<img src="https://i.postimg.cc/d1D2cZKd/signup-tab.png" alt="login">
 <br />
-![home tab](https://github.com/AngelDoychev/AngelDex-Web-Project/tree/main/src/main/resources/static/images/home%20tab.png)
+<img src="https://i.postimg.cc/Hx4921Hv/home-tab.png" alt="home">
 <br />
-![home tab 2](https://github.com/AngelDoychev/AngelDex-Web-Project/tree/main/src/main/resources/static/images/home%20tab%202.png)
+<img src="https://i.postimg.cc/sxLQPTB0/home-tab-2.png" alt="home2">
 <br />
-![home tab 3](https://github.com/AngelDoychev/AngelDex-Web-Project/tree/main/src/main/resources/static/images/home%20tab%203.png)
+<img src="https://i.postimg.cc/kgsVfMtb/home-tab-3.png" alt="home3">
 <br />
-![articles](https://github.com/AngelDoychev/AngelDex-Web-Project/tree/main/src/main/resources/static/images/articles.png)
+<img src="https://i.postimg.cc/LXL2Qv0b/articles.png" alt="articles">
 <br />
-![unconfirmed article](https://github.com/AngelDoychev/AngelDex-Web-Project/tree/main/src/main/resources/static/images/unconfirmed%20articles.png)
+<img src="https://i.postimg.cc/26wX5Zq5/unconfirmed-article.png" alt="unconfirmed_article">
 <br />
-![crypto tab](https://github.com/AngelDoychev/AngelDex-Web-Project/tree/main/src/main/resources/static/images/crypto%20tab.png)
+<img src="https://i.postimg.cc/zGZw9fB2/crypto-tab.png" alt="crypto">
 <br />
-![team tab](https://github.com/AngelDoychev/AngelDex-Web-Project/tree/main/src/main/resources/static/images/team%20tab.png)
+<img src="https://i.postimg.cc/506nfRMs/team-tab.png" alt="team">
 <br />
 
 
