@@ -4,7 +4,9 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-   ![logo](https://github.com/AngelDoychev/AngelDex-Web-Project/assets/120913858/7775bcef-2503-4ec1-87f0-7668dec30273)
+   <img>
+   ![logo](https://github.com/AngelDoychev/AngelDex-Web-Project/tree/main/src/main/resources/static/images/logo.png)
+   </img>
   <h3 align="center">AngelDex-Web-Project</h3>
 </div>
 
@@ -14,23 +16,23 @@
 ## Website view
 
 <br />
-![signup tab](https://github.com/AngelDoychev/AngelDex-Web-Project/src/main/resources/static/images/logo.png)"
+![signup tab](https://github.com/AngelDoychev/AngelDex-Web-Project/tree/main/src/main/resources/static/images/signup%20tab.png))"
 <br />
-![login tab](https://github.com/AngelDoychev/AngelDex-Web-Project/assets/120913858/b73e98ce-dfdf-4388-b297-bf49caa58799)
+![login tab](https://github.com/AngelDoychev/AngelDex-Web-Project/tree/main/src/main/resources/static/images/login%20tab.png)
 <br />
-![home tab](https://github.com/AngelDoychev/AngelDex-Web-Project/assets/120913858/429dc808-22b6-4dac-b6da-3f34f08ccc5f)
+![home tab](https://github.com/AngelDoychev/AngelDex-Web-Project/tree/main/src/main/resources/static/images/home%20tab.png)
 <br />
-![home tab 2](https://github.com/AngelDoychev/AngelDex-Web-Project/assets/120913858/4e97fb10-6830-4459-a0c3-f5011c8e3787)
+![home tab 2](https://github.com/AngelDoychev/AngelDex-Web-Project/tree/main/src/main/resources/static/images/home%20tab%202.png)
 <br />
-![home tab 3](https://github.com/AngelDoychev/AngelDex-Web-Project/assets/120913858/06d6f276-209a-4e09-a6b4-cd179da00fe5)
+![home tab 3](https://github.com/AngelDoychev/AngelDex-Web-Project/tree/main/src/main/resources/static/images/home%20tab%203.png)
 <br />
-![articles](https://github.com/AngelDoychev/AngelDex-Web-Project/assets/120913858/b3d6a656-6245-402b-978e-ac9275773b45)
+![articles](https://github.com/AngelDoychev/AngelDex-Web-Project/tree/main/src/main/resources/static/images/articles.png)
 <br />
-![unconfirmed article](https://github.com/AngelDoychev/AngelDex-Web-Project/assets/120913858/ce30db58-f4b2-44b1-aa52-bf14c44675a9)
+![unconfirmed article](https://github.com/AngelDoychev/AngelDex-Web-Project/tree/main/src/main/resources/static/images/unconfirmed%20articles.png)
 <br />
-![crypto tab](https://github.com/AngelDoychev/AngelDex-Web-Project/assets/120913858/3445015d-c6a7-4310-a481-de0be4b53be6)
+![crypto tab](https://github.com/AngelDoychev/AngelDex-Web-Project/tree/main/src/main/resources/static/images/crypto%20tab.png)
 <br />
-![team tab](https://github.com/AngelDoychev/AngelDex-Web-Project/assets/120913858/1d8bb43a-b831-4d5c-a138-154a4738efb2)
+![team tab](https://github.com/AngelDoychev/AngelDex-Web-Project/tree/main/src/main/resources/static/images/team%20tab.png)
 <br />
 
 
