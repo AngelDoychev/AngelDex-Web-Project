@@ -191,6 +191,8 @@ in the crypto market. You can do so from any page except the login page.
 - Also you can see which user wrote the article.
 - You can also click on the email of the user who wrote the article to check out more
 articles written by this user.
+- You can also use the search function to search articles that include the specified word/phrase
+in the existing articles.
 - Usres are able to update the prices of cryptocurrencies.
 - Admin can update the prices of currencies and "hard update" the top 100 if there are changes in the market.
 
